@@ -26,3 +26,4 @@ func physics_process(_delta):
 			SM.set_state("Scanning")
 		else:
 			player.die()
+			SM.set_state("Scanning")

@@ -10,6 +10,7 @@ func _ready():
 
 func _physics_process(_delta):
 	if not has_node("Player"):
+		print(true)
 		var player = Player.instance()
 		player.position = starting_position
 		add_child(player)
